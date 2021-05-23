@@ -30,7 +30,7 @@ func main() {
 	// 		fmt.Println("Hi,", userName)
 	// 	}
 	// }
-	userName := users[os.Args[1]]
+	userName := users[os.Args[1]] // should check if value exists!!!
 	if len(userName) == 0 {
 		fmt.Println("Unknown user id", os.Args[1])
 	} else {
